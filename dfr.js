@@ -2,7 +2,10 @@ const fs = require('fs');
 
 
 function fileExists(filename) {
-
+  if (fs.existsSync(filename)) {
+    return true
+  }
+  return false
 }
   // returns true or false
 
