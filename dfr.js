@@ -2,25 +2,22 @@ const fs = require('fs');
 
 
 function fileExists(filename) {
+
+}
   // returns true or false
+
+function validNumber(value) { // value can be string or numeric// returns a boolean 
+  return typeof value === 'number' && !isNaN(value);
 }
-
-
-function validNumber(value) { // value can be string or numeric
- // returns a boolean 
-}
-
 
 function dataDimensions(dataframe) {
   // returns a list [rows (int), cols (int)]
 }
 
-
 function calculateMean(dataset) {
   // returns a float or false
   
 }
-
 
 function findTotal(dataset) {
   // returns float or false
